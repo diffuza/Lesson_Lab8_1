@@ -25,6 +25,7 @@ namespace Lesson_Lab8_1
             lblArr.Text = "";
             lblResult.Text = "";
             btnSort.Enabled = false;
+            button1.Enabled= false;
         }
         private void btnNewArr_Click(object sender, EventArgs e)
         {
@@ -39,6 +40,7 @@ namespace Lesson_Lab8_1
                 if (i != n) lblArr.Text += ", ";
             }
             btnSort.Enabled = true;
+            button1.Enabled= true;
         }
         private int MinNumber(int[] x, int m)
         {
